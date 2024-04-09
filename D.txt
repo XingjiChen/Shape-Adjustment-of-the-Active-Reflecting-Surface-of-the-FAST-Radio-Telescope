@@ -1,0 +1,46 @@
+C =
+ 
+(y*cos(al) - x*sin(al))^2 
++ (x*cos(al)*cos(th) - z*sin(th) + y*sin(al)*cos(th))^2 
+- 2*p*(z*cos(th) - dz + x*cos(al)*sin(th) + y*sin(al)*sin(th))
+
+D =
+ 
+2*dz*p 
++ y0^2*cos(al)^2 
++ x0^2*sin(al)^2 
++ z0^2*sin(th)^2 
+- 2*p*z0*cos(th) 
++ m^2*t^2*cos(al)^2 
++ n^2*t^2*sin(al)^2 
++ q^2*t^2*sin(th)^2 
++ x0^2*cos(al)^2*cos(th)^2 
++ y0^2*sin(al)^2*cos(th)^2 
+- 2*p*y0*sin(al)*sin(th) 
++ 2*q*t*z0*sin(th)^2 
++ n^2*t^2*cos(al)^2*cos(th)^2 
++ m^2*t^2*sin(al)^2*cos(th)^2 
+- 2*p*q*t*cos(th) 
++ 2*m*t*y0*cos(al)^2 
+- 2*x0*y0*cos(al)*sin(al) 
++ 2*n*t*x0*sin(al)^2 
+- 2*p*x0*cos(al)*sin(th) 
++ 2*n*t*x0*cos(al)^2*cos(th)^2 
++ 2*x0*y0*cos(al)*sin(al)*cos(th)^2 
++ 2*m*t*y0*sin(al)^2*cos(th)^2 
+- 2*m*t*x0*cos(al)*sin(al) 
+- 2*n*t*y0*cos(al)*sin(al) 
+- 2*n*p*t*cos(al)*sin(th) 
+- 2*m*p*t*sin(al)*sin(th) 
+- 2*m*n*t^2*cos(al)*sin(al) 
+- 2*x0*z0*cos(al)*cos(th)*sin(th) 
+- 2*y0*z0*sin(al)*cos(th)*sin(th) 
+- 2*n*t*z0*cos(al)*cos(th)*sin(th) 
+- 2*q*t*x0*cos(al)*cos(th)*sin(th) 
+- 2*m*t*z0*sin(al)*cos(th)*sin(th) 
+- 2*q*t*y0*sin(al)*cos(th)*sin(th) 
++ 2*m*t*x0*cos(al)*sin(al)*cos(th)^2 
++ 2*n*t*y0*cos(al)*sin(al)*cos(th)^2 
+- 2*n*q*t^2*cos(al)*cos(th)*sin(th) 
+- 2*m*q*t^2*sin(al)*cos(th)*sin(th) 
++ 2*m*n*t^2*cos(al)*sin(al)*cos(th)^2
